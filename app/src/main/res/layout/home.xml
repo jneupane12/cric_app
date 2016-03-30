@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/date_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="8 March,2016"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"
+
+        android:textColor="#ff0000"/>
+
+    <ImageView
+        android:id="@+id/ascol_image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ascol"
+        android:layout_alignTop="@+id/xavier_image_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/ascol_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASCOL"
+        android:textColor="#000000"
+        android:layout_below="@+id/ascol_image_view"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/xavier_image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/xavier"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp"
+
+        android:layout_marginTop="112dp" />
+
+
+
+    <TextView
+        android:id="@+id/xavier_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="St.Xavier"
+        android:textColor="#000000"
+        android:layout_alignTop="@+id/ascol_text_view"
+        android:layout_alignRight="@+id/xavier_image_view"
+        android:layout_alignEnd="@+id/xavier_image_view"
+        android:layout_marginRight="20dp"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/vs_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VS"
+        android:textAlignment="center"
+
+        android:layout_marginTop="200dp"
+        android:textColor="#ff0000"
+        android:layout_toLeftOf="@+id/xavier_image_view"
+        android:layout_toRightOf="@id/ascol_image_view" />
+
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASCOL:200/8"
+        android:textAlignment="center"
+
+        android:layout_marginTop="300dp"
+        android:textColor="#ff0000"
+        android:layout_toLeftOf="@+id/xavier_image_view"
+        android:layout_toRightOf="@id/ascol_image_view"
+         />
+
+
+    <TextView
+        android:id="@+id/over_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 Ovs"
+        android:textAlignment="center"
+
+        android:layout_marginTop="320dp"
+        android:textColor="#ff0000"
+        android:layout_toLeftOf="@+id/xavier_image_view"
+        android:layout_toRightOf="@id/ascol_image_view"
+        />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ascol won by 14 runs"
+        android:textAlignment="center"
+
+        android:layout_marginTop="360dp"
+        android:textColor="#000000"
+        android:layout_toLeftOf="@+id/xavier_image_view"
+        android:layout_toRightOf="@id/ascol_image_view"
+        />
+</RelativeLayout>
